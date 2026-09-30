@@ -1,0 +1,188 @@
+body {
+    background-color: #0B1210;
+    color: #F3F1E7;
+    font-family: 'Inter';
+}
+
+.hero {
+    height: 496px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 72px 160px;
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 617px;
+    height: 405px;
+}
+
+.hero-quest {
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+    color: #70D6B2;
+}
+
+.hero-intro {
+    color: #9EAA9E;
+    font-size: 22px;
+}
+
+.hero-card button {
+    color: #142018;
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+    width: fit-content;
+    background-color: #A8D672;
+    border: 1px solid #A8D672;
+    border-radius: 50px;
+    padding: 10px 16px;
+}
+
+.hero-img {
+    width: 455px;
+    height: 375px;
+}
+
+.hero img {
+    border-radius: 36px;
+}
+
+.principles {
+    display: flex;
+    flex-direction: column;
+    background-color: #13201B;
+    padding: 96px 160px;
+    gap: 48px;
+}
+
+.principles-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.principles-how {
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+    color: #FFB893;
+}
+
+.principles-library {
+    display: flex;
+    gap: 24px;
+}
+
+.principles-card {
+    width: 293px;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    background-color: #13201B;
+    border: 2px solid #2B4037;
+    border-radius: 24px;
+    padding: 32px 32px 16px 32px;
+    gap: 24px;
+}
+
+.card-description{
+    color: #9EAA9E;
+}
+
+.card-tile {
+    height: 52px;
+    width: 52px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #142018;
+}
+
+.meet-us {
+    height: 644px;
+    padding: 96px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.meet-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.meet-title {
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+    color: #70D6B2;
+}
+
+.meet-library {
+    display: flex;
+    width: 1120px;
+    gap: 24px;
+}
+
+.meet-card {
+    width: 33%;
+    height: 438px;
+    padding: 16px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.meet-card div {
+    color: #142018;
+}
+
+.meet-img {
+    height: 250px;
+    width: 325px;
+}
+
+.meet-card img {
+    border-radius: 16px;
+}
+
+.meet-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 16px;
+}
+
+.guild-notes {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 160px;
+    gap: 48px;
+}
+
+.guild-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-library {
+    display: flex;
+    gap: 24px;
+}
+
+.note-card {
+    width: 293px;
+    height: 218px;
+    padding: 32px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #142018;
+}

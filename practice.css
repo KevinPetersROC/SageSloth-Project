@@ -1,0 +1,183 @@
+body {
+    background-color: #0B1210;
+    color: #F3F1E7;
+    font-family: 'Inter';
+}
+
+.hero {
+    height: 416px;
+    padding: 72px 160px;
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    border-radius: 36px;
+}
+
+.hero-img {
+    height: 375px;
+    width: 455px;
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    width: 601px;
+    height: 245px;
+    gap: 24px;
+}
+
+.hero-quest {
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+    color: #70D6B2;
+}
+
+.hero-title {
+    flex-wrap: wrap;
+}
+
+.hero-intro {
+    color: #9EAA9E;
+    font-size: 22px;
+}
+/*haha 6767*/
+.library {
+    display: flex;
+    height: 917px;
+    padding: 44px 169px 112px 169px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.library-header {
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    gap: 8px;
+}
+
+.library-streaks {
+    font-size: 17px;
+    color: #9EAA9E;
+}
+
+.library-available {
+    font-size: 14px;
+    color: #53645C;
+}
+
+.quest-filters {
+    display: flex;
+    width: 1120px;;
+    gap: 12px;
+}
+
+.quest-button {
+    width: fit-content;
+    padding: 10px 18px;
+    color: #9EAA9E;
+    background-color: #192B24;
+    border: 2px solid #2B4037;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.quest-button-active {
+    background-color: #A8D672;
+    border: 2px solid #A8D672;
+    color: #142018;
+}
+
+.quest-library {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.quest-library button {
+    padding: 4px 12px;
+    border: 2px solid #111A16;
+    background-color: #111A16;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.quest-card {
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+    height: 247px;
+    padding: 32px;
+    background-color: #192B24;
+    border: 2px solid #2B4037;
+    border-radius: 24px;
+    gap: 16px;
+}
+
+.quest-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-tile {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 144px;
+}
+
+.progress-box {
+    height: 234px;
+    width: 1024px;
+    padding: 48px;
+    border-radius: 36px;
+    background-color: #192B24;
+    border: 2px solid #2B4037;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.progress-marker {
+    height: 150px;
+    width: 150px;
+    background-color: #C6B5FF;
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #142018;
+}
+
+.progress-info {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.progress-quest {
+    color: #9EAA9E;
+    font-size: 22px;
+}
+
+.progress-button {
+    background-color: #A8D672;
+    padding: 14px 24px;
+    width: fit-content;
+    border-radius: 16px;
+    border: 1px solid #A8D672;
+}

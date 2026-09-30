@@ -1,0 +1,26 @@
+.footer {
+    height: 220px;
+    background-color: #13201B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-links {
+    width: 186px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.copyright {
+    color: #53645C;
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+}
+
+.footer-resets {
+    font-size: 14px;
+    color: #9EAA9E;
+}
