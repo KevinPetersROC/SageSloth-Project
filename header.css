@@ -41,3 +41,12 @@ header a:hover {
     height: 45px;
     font-size: 17px;
 }
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    width: 1470px;
+}
